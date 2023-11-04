@@ -1,0 +1,182 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #4B0082;
+}
+
+.banner {
+  background: url("img/wisudaKK.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+a.tbl-ungu {
+  background: #451952;
+  border-radius: 20px;
+  margin-top: 20px;
+  /* Margin atas */
+  margin-bottom: 20px;
+  /* Margin bawah */
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+a.tbl-ungu:hover {
+  background: #AE445A;
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #B71375;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+/*tombol ungu dan lingkaran untuk tampilan mobile*/
+@media (max-width: 767px) {
+  a.tbl-ungu {
+    background: #4B0082;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  a.tbl-ungu:hover {
+    background: #AE445A;
+  }
+}
+
+@media (max-width: 767px) {
+  .lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    background-color: #B71375;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .lingkaran i {
+    position: relative;
+    top: 30px;
+  }
+}
+
+/*background bagian kontak kami */
+.kontak {
+  background: url("img/petabg.jpg") no-repeat center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+
+/* untuk membuat gambar logo responsif */
+.responsive-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+/* responsif  logo untuk mode handphone */
+@media (max-width: 767px) {
+  .responsive-logo {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+/*mengubah warna menjadi putih*/
+.footer-section img {
+  filter: brightness(0) invert(1);
+}
+
+/* Jarak antar logo sosial media */
+.footer-section a {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* CSS untuk copyright */
+.copyright {
+  background-color: #FFC7EA;
+  width: 100%;
+  height: 5%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.promo-header {
+  background-color: #ff6f61;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.promo-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.promo-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.promo-description {
+  text-align: left;
+  padding: 20px;
+}
+
+.promo-description h2 {
+  color: #ff6f61;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6f61;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #e55246;
+}
+
+.promo-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
